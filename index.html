@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Weronika's Portfolio</title>
+
+      <!-- Bootstrap, CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/styles.css">
+
+      <!-- Google Font -->
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <header class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6">
+              <img class="img-fluid" src="./assets/superman-pic.png" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-6">
+              <div class="hero-text">
+                <h1><span>Hi, I am</span><br>Weronika Szafinska.</h1>
+              </div>
+            </div>
+          </div>
+      </div>
+      </header>
+
+      <!-- About -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h4>Welcome to my Portfolio. I am a self-taught ambitious junior developer with a background in content management and web design currently seeking new opportunities in the fast-paced world of web development.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="col-md-12 projects-container">
+            <h1>Personal Projects</h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card text-center">
+                <div class="card-header lead">YelpCamp</div>
+                  <img class="card-img-top" src="./assets/yelpcamp.jpg" alt="yelpcamp thumbnail">
+                    <div class="card-body">
+                      <p class="card-text">Demo website where users have the functionality to register, rate, add and comment on user-submitted campsites.
+                        <br>
+                        <span>Built with Node.js, Express, MongoDB. Deployed on Heroku.</span>
+                      </p>
+                        <a href="https://mysterious-basin-75934.herokuapp.com/campgrounds" class="btn btn-lg btn-primary" type="button" name="button">Preview</a>
+                        <a href="https://github.com/psitek/yelp-camp" class="btn btn-lg btn-secondary" type="button" name="button">View repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card text-center">
+                <div class="card-header lead">To Do List</div>
+                  <img class="card-img-top" src="./assets/todo-list.JPG" alt="todo list thumbnail">
+                    <div class="card-body">
+                      <p class="card-text">A quick todo list application that allows the user to create, cross off, and delete list items.
+                        <br>
+                        <span>Built with HTML, CSS, JavaScript and jQuery.</span>
+                      </p>
+                        <a href="https://codepen.io/psitek/full/oywZQq" class="btn btn-lg btn-primary" type="button" name="button">Preview</a>
+                        <a href="https://github.com/psitek/todolist" class="btn btn-lg btn-secondary" type="button" name="button">View repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card text-center">
+                <div class="card-header lead">RGB Colour Game</div>
+                  <img class="card-img-top" src="./assets/rgb-guessing-game.JPG" alt="rgb game thumbnail">
+                    <div class="card-body">
+                      <p class="card-text">
+                        This game gives you a generated RGB color and asks you to match it to one of the generated answer choices.
+                        <br>
+                        <span>Built with HTML, CSS, JavaScript.</span>
+                      </p>
+                        <a href="https://codepen.io/psitek/full/WyORma" class="btn btn-lg btn-primary" type="button" name="button">Preview</a>
+                        <a href="https://github.com/psitek/rgb-colour-game" class="btn btn-lg btn-secondary" type="button" name="button">View repo</a>
+                    </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card text-center">
+                <div class="card-header lead">Responsive Portfolio</div>
+                    <img class="card-img-top" src="./assets/responsive-portfolio.jpg" alt="rgb game thumbnail">
+                    <div class="card-body">
+                      <p class="card-text">
+                        A fully responsive website built to showcase all my personal projects.
+                        <br>
+                        <span>Built with HTML, CSS and Bootstrap.</span>
+                      </p>
+                        <a href="https://mysterious-basin-75934.herokuapp.com/campgrounds" class="btn btn-lg btn-secondary" type="button" name="button">View repo</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="contact">
+        <div class="container-fluid">
+          <div class="row footer">
+            <div class="col-md-12 text-center">
+              <h1>Get in Touch</h1>
+              <a href="mailto:wszafinska@gmail.com"><img src="assets/mail.png" alt="mail icon"></a>
+              <a href="https://github.com/psitek"><img src="assets/github.png" alt="github icon"></a>
+            </div>
+          </div>
+          <div class="row sub-footer">
+            <div class="col-md-12 text-center">
+              <p>Designed by Weronika</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+        <!-- jQuery, Popper.js, Bootstrap JS -->
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+      </body>
+  </html>
